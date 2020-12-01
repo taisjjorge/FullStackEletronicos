@@ -10,20 +10,25 @@
 <body>
     <!-- ###INICIO MENU #### -->
 
-    <ul id="navegacao">
-        <li>
-            <img class="logo" src="./imagens/logo.full.png">
-        </li>
-        <li>
-            <a href="#">Página inicial</a>
-        </li>
-        <li>
-            <a href="./produtos.html">Protudos</a>
-        </li>
-        <li>
-            <a href="./contatos.html">Contatos</a>
-        </li>
-    </ul>
+    <!-- ###INICIO MENU #### -->
+    <nav style="display:flex;">
+        <img class="logo" src="./imagens/logo.full.png">
+        <ul id="navegacao">
+            <li>
+                <a href="./index.html" onmouseover="aumenta_menu(this)"
+                onmouseout="diminui_menu(this)">Página inicial</a>
+            </li>
+            <li>
+                <a href="./produtos.html" onmouseover="aumenta_menu(this)"
+                onmouseout="diminui_menu(this)">Protudos</a>
+            </li>
+            <li>
+                <a href="./contatos.html" onmouseover="aumenta_menu(this)"
+                onmouseout="diminui_menu(this)">Contatos</a>
+            </li>
+        </ul>
+        
+    </nav>
     <!-- ### FIM MENU ### -->
     <p>Confira nossas ofertas!</p>
     <footer>
@@ -32,6 +37,6 @@
 
 
 
-
+    <script src="./js/script.js"></script>
 </body>
 </html>

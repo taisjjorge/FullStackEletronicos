@@ -9,23 +9,24 @@
 </head>
 <body>
     <!-- ###INICIO MENU #### -->
-
-    <table bgcolor="white">
-        <tr>
-            <td>
-                <img width="300px" src="./imagens/logo.full.png">
-            </td>
-            <td>
-                <a href="index.html">Página Inicial</a>
-            </td>
-            <td>
-                <a href="produtos.html">Produtos</a>
-            </td>
-            <td>
-                <a href="contatos.html">Contatos</a>
-            </td>
-        </tr>
-    </table>
+    <nav style="display:flex;">
+        <img class="logo" src="./imagens/logo.full.png">
+        <ul id="navegacao">
+            <li>
+                <a href="./index.html" onmouseover="aumenta_menu(this)"
+                onmouseout="diminui_menu(this)">Página inicial</a>
+            </li>
+            <li>
+                <a href="./produtos.html" onmouseover="aumenta_menu(this)"
+                onmouseout="diminui_menu(this)">Protudos</a>
+            </li>
+            <li>
+                <a href="./contatos.html" onmouseover="aumenta_menu(this)"
+                onmouseout="diminui_menu(this)">Contatos</a>
+            </li>
+        </ul>
+        
+    </nav>
     <!-- ### FIM MENU ### -->
     
     <form class="formulario-contato">
@@ -46,6 +47,6 @@
 
 
 
-
+    <script src="./js/script.js"></script>
 </body>
 </html>
