@@ -90,5 +90,13 @@ footer p {
     font-size: 12pt;
 }
 .legenda {
-    visibility: hidden;
+    visibility: initial; 
+} /* por visibility hidden para desaparecer*/
+
+.form-pedidos {
+    margin-right: 20px;
+}
+
+.form-pedidos label {
+    display: flex;
 }
